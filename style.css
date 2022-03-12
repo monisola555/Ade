@@ -1,0 +1,81 @@
+{
+ padding: 0;   
+ margin: 0;
+}
+
+.container {
+    width: 92%;
+    margin: auto;
+    overflow: hidden;
+}
+.branding{
+    display: flex;
+}
+
+.branding img {
+    width: 40px;
+}
+
+.brand {
+    position: relative;
+    left: 8px;
+    top: 5px;
+}
+
+nav{
+    text-align: right;
+}  
+ 
+a{
+    text-decoration: none;
+    font-size: large;
+    padding-left: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #4275a6;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    /* margin-bottom:10px */
+}
+
+/* Section two starts here */
+
+.bg{
+    background-image:url(images/bg.jpg) ;
+    color: #FFFFFF;
+}
+
+.sec_2 p{
+    color: antiquewhite;
+    width: 28%;
+}
+
+.sec_2 p{
+    color: #B7B7AA;
+}
+
+.sec_2b h4{
+    color: #FFFFFF;
+}
+
+.sec_2c{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.sec_2e{
+    text-align: end;
+}
+
+.sec_2f{
+    color: aliceblue;
+}
